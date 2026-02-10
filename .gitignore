@@ -1,0 +1,21 @@
+# --- Security ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# --- Assistant Generated Files ---
+*.mp3
+temp_voice.mp3
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/

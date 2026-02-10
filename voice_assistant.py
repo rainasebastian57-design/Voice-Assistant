@@ -16,7 +16,7 @@ import pygame
 from dateutil import parser as dtparser
 
 # ---------------- CONFIG ----------------
-WEATHER_API = "98e538d85b72214c9ea1a6d936ad7d63"
+WEATHER_API = os.getenv("WEATHER_API")
 CITY = "Kottayam"
 
 # If your mic isn't detected correctly, set this after seeing the mic list in terminal.
